@@ -1,7 +1,25 @@
 aid: cyvera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cyvera.png
 name: Cyvera
-description: Cyvera is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cyvera was an Israeli cybersecurity startup, founded in 2011 and backed by Battery Ventures,
+  that pioneered exploit-prevention endpoint security. Its flagship product, TRAPS (Targeted
+  Remote Attack Prevention System), blocked unknown, zero-day attacks by obstructing the exploitation
+  techniques attackers rely on rather than relying on signatures. Cyvera was acquired by Palo Alto
+  Networks in April 2014 for roughly $200M, and TRAPS was folded into Palo Alto's endpoint offering
+  that ultimately became Cortex XDR. The independent company no longer operates; the cyvera.com domain
+  no longer resolves and there is no live developer portal, public API, or artifact surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/cyvera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,29 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: palo-alto-networks
+x-acquired-date: '2014-04-10'
+x-defunct: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cybersecurity
+- Endpoint Security
+- Exploit Prevention
+- Zero-Day Defense
+- Threat Prevention
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
